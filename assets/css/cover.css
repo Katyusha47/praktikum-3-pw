@@ -51,3 +51,17 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+.video-container {
+  position: relative;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  z-index: 1; /* Make sure the overlay is on top of the video */
+}
